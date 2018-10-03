@@ -1,0 +1,82 @@
+.ui.header {
+  background: url("https://www.theflatearthsociety.org/FE-Backdrop-Mid.jpg");
+  background-size: cover;
+  height: 150px;
+  color: white;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.ui.title.image {
+  height: 100px;
+  width: 100px;
+}
+
+.ui.second.header {
+  background-color: #e0dfca;
+  padding: 0px 0px 0px 0px;
+  height: 100px;
+}
+
+.ui.centered.grid.container {
+  height: 40px;
+}
+
+.ui.borderless.topmenu.menu {
+  background-color: #2d2d2d;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+}
+
+.ui.centered.grid.container.nav-menu {
+  margin-top: 0;
+  width: 1200px !important;
+}
+
+.ui.centered.grid.container.nav-menu .item {
+  width: calc(100% / 6);
+  border-left: 1px solid #fff;
+  text-align: center !important;
+}
+
+.ui.three.cards.container .item {
+  border-radius: 0px;
+
+}
+
+.ui.three.cards.container .header {
+  background-color: #2d2d2d;
+  border-radius: 0px;
+  text-align: center;
+  color: #888084;
+  padding: 40px 20px 40px 20px
+}
+.ui.three.cards.container .circle.item {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  height: 70px;
+  width: 70px;
+  transform: translateX(-50%);
+  background: #2d2d2d;
+  border-radius: 100%;
+  border: 4px solid #FFF;
+  font-size: 2.5em;
+  color: #FFF;
+}
+.ui.three.cards.container .icon {
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ui.three.cards.container .description {
+  position: relative;
+  background-color: #fff;
+  border-radius: 0px;
+  text-align: left;
+  color: #333;
+  padding: 40px 10px 10px 10px;
+}
